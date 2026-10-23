@@ -1,0 +1,41 @@
+.tabla-reportes {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  border: 1px solid #ddd;
+  margin-top: 15px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+
+.tabla-reportes th,
+.tabla-reportes td {
+  padding: 10px 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.tabla-reportes th {
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+.tabla-reportes tr:hover {
+  background-color: #f9f9f9;
+}
+
+.btn-ver {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.btn-ver:hover {
+  text-decoration: underline;
+}
+
+.badge-completado {
+  color: #28a745;
+  font-size: 13px;
+  font-weight: bold;
+}

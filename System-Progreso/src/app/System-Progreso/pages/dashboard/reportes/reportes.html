@@ -1,0 +1,25 @@
+<h2>Módulo de Reportes</h2>
+
+<table class="tabla-reportes">
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Nombre del Reporte</th>
+      <th>Tipo</th>
+      <th>Última Actualización</th>
+      <th>Estado / Acción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let reporte of listaReportes">
+      <td>{{ reporte.id }}</td>
+      <td>{{ reporte.nombre }}</td>
+      <td>{{ reporte.tipo }}</td>
+      <td>{{ reporte.fecha }}</td>
+      <td>
+        <a *ngIf="reporte.ruta" [routerLink]="reporte.ruta" class="btn-ver">Ver Reporte →</a>
+        <span *ngIf="!reporte.ruta" class="badge-completado">{{ reporte.estado }}</span>
+      </td>
+    </tr>
+  </tbody>
+</table>

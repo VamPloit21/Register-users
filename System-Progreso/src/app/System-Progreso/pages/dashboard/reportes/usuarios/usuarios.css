@@ -1,0 +1,34 @@
+.lista-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 15px;
+  font-family: Arial, sans-serif;
+}
+
+.card-usuario {
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 15px;
+  width: 260px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.card-usuario h3 {
+  margin: 0 0 4px 0;
+  font-size: 18px;
+  color: #222;
+}
+
+.username {
+  color: #007bff;
+  margin: 0 0 8px 0;
+  font-size: 14px;
+}
+
+.card-usuario p {
+  margin: 4px 0;
+  font-size: 14px;
+  color: #555;
+}

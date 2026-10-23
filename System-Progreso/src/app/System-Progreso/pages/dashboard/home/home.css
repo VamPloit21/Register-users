@@ -1,0 +1,12 @@
+.welcome-box {
+  background: white;
+  padding: 25px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  font-family: Arial, sans-serif;
+}
+
+.welcome-box h2 {
+  margin-top: 0;
+  color: #333;
+}

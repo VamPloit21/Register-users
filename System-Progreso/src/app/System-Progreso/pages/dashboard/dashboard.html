@@ -1,0 +1,27 @@
+<div class="dashboard-layout">
+  <aside class="sidebar">
+    <h3>Dashboard</h3>
+    <hr>
+    <ul>
+      <li><a routerLink="/dashboard/clientes" routerLinkActive="active">► Clientes</a></li>
+      <li><a routerLink="/dashboard/empleados" routerLinkActive="active">► Empleados</a></li>
+      <li><a routerLink="/dashboard/productos" routerLinkActive="active">► Productos</a></li>
+      <li>
+        <a routerLink="/dashboard/reportes" routerLinkActive="active">► Reportes</a>
+        <ul class="submenu">
+          <li><a routerLink="/dashboard/reportes/usuarios" routerLinkActive="active">Usuarios</a></li>
+        </ul>
+      </li>
+    </ul>
+    <button (click)="logout()" class="btn-logout">[Cerrar sesión]</button>
+  </aside>
+
+  <main class="main-content">
+    <header class="header">
+      <h1>Distribuciones El Progreso</h1>
+    </header>
+    <section class="content">
+      <router-outlet></router-outlet>
+    </section>
+  </main>
+</div>

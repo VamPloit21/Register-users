@@ -1,0 +1,22 @@
+<h2>Catálogo de Productos</h2>
+
+<table class="tabla-productos">
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Producto</th>
+      <th>Categoría</th>
+      <th>Precio</th>
+      <th>Stock</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let item of listaProductos">
+      <td>{{ item.id }}</td>
+      <td>{{ item.nombre }}</td>
+      <td>{{ item.categoria }}</td>
+      <td>{{ item.precio }}</td>
+      <td>{{ item.stock }} un.</td>
+    </tr>
+  </tbody>
+</table>

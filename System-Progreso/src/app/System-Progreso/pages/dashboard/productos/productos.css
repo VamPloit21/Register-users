@@ -1,0 +1,25 @@
+.tabla-productos {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  border: 1px solid #ddd;
+  margin-top: 15px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+
+.tabla-productos th,
+.tabla-productos td {
+  padding: 10px 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.tabla-productos th {
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+.tabla-productos tr:hover {
+  background-color: #f9f9f9;
+}
